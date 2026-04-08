@@ -393,7 +393,7 @@ footer .copyright { font-size: 12px; opacity: 0.5; }
   <p class="subtitle reveal stagger-1">An elite, orchestrated army of AI agents built to scale your enterprise without the risk of going rogue. By replacing chaotic automation with a governed command structure, this workforce integrates fail-safe controls and ironclad guardrails directly into your operations. It's more than just a productivity boost — it's high-velocity intelligence under absolute control.</p>
   <div class="hero-cta reveal stagger-2">
     <a href="https://github.com/CES-Ltd/TitanClip/releases/download/v1.0.0-beta/TitanClip-1.0.0-arm64.dmg" class="btn-primary">Download for macOS (Beta)</a>
-    <a href="https://github.com/ankurCES/TitanClip" class="btn-secondary">View on GitHub</a>
+    <a href="https://github.com/CES-Ltd/TitanClip" class="btn-secondary">View on GitHub</a>
   </div>
   <div class="scroll-hint">
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 13l5 5 5-5M7 7l5 5 5-5"/></svg>
@@ -405,7 +405,7 @@ footer .copyright { font-size: 12px; opacity: 0.5; }
   <h2 class="reveal">See it in action</h2>
   <p class="caption reveal stagger-1">From onboarding to autonomous task execution — watch TitanClip orchestrate an entire agent team.</p>
   <div class="video-wrap reveal stagger-2">
-    <a href="https://github.com/ankurCES/TitanClip/releases/download/v1.0.0-beta/walkthrough.mov" target="_blank" style="position:relative; display:block;">
+    <a href="https://github.com/CES-Ltd/TitanClip/releases/download/v1.0.0-beta/walkthrough.mov" target="_blank" style="position:relative; display:block;">
       <img src="assets/dashboard-agents.png" alt="Watch Walkthrough" style="width:100%; filter: brightness(0.7);">
       <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:80px; height:80px; background:rgba(255,255,255,0.9); border-radius:50%; display:flex; align-items:center; justify-content:center;">
         <svg width="32" height="32" viewBox="0 0 24 24" fill="#1d1d1f"><polygon points="8,5 20,12 8,19"/></svg>
@@ -609,7 +609,7 @@ footer .copyright { font-size: 12px; opacity: 0.5; }
       <span class="cmd">Download TitanClip-1.0.0-arm64.dmg from GitHub Releases</span><br>
       <span class="cmd">Drag to Applications → Launch → Complete onboarding wizard</span><br><br>
       <span class="comment"># Or build from source</span><br>
-      git clone https://github.com/ankurCES/TitanClip.git<br>
+      git clone https://github.com/CES-Ltd/TitanClip.git<br>
       cd TitanClip && pnpm install<br>
       pnpm run build:all<br>
       pnpm run dev
@@ -888,7 +888,7 @@ footer .copyright { font-size: 12px; opacity: 0.5; }
       <span class="cmd">Download TitanX-1.0.0-arm64.dmg from GitHub Releases</span><br>
       <span class="cmd">Drag to Applications &rarr; Launch &rarr; Complete security onboarding</span><br><br>
       <span class="comment"># Or build from source</span><br>
-      git clone https://github.com/ankurCES/TitanX.git<br>
+      git clone https://github.com/CES-Ltd/TitanX.git<br>
       cd TitanX && bun install<br>
       bun run build:all<br>
       bun run dev
@@ -916,8 +916,8 @@ footer .copyright { font-size: 12px; opacity: 0.5; }
     Powered by <a href="https://github.com/paperclipai/paperclip" target="_blank">Paperclip</a> open-source platform
   </div>
   <div class="footer-links" id="footer-links">
-    <a href="https://github.com/ankurCES/TitanClip">GitHub</a>
-    <a href="https://github.com/ankurCES/TitanClip/releases">Releases</a>
+    <a href="https://github.com/CES-Ltd/TitanClip">GitHub</a>
+    <a href="https://github.com/CES-Ltd/TitanClip/releases">Releases</a>
     <a href="https://cesltd.com">CES Limited</a>
   </div>
   <div class="copyright">&copy; 2026 CES Limited. All rights reserved.</div>
@@ -970,11 +970,11 @@ function switchProduct(product) {
   document.getElementById('footer-logo-x').style.display = product === 'titanx' ? 'block' : 'none';
 
   if (product === 'titanx') {
-    document.getElementById('footer-powered').innerHTML = 'Built on <a href="https://github.com/ankurCES/TitanClip" target="_blank">TitanClip</a> open-source platform';
+    document.getElementById('footer-powered').innerHTML = 'Built on <a href="https://github.com/CES-Ltd/TitanClip" target="_blank">TitanClip</a> open-source platform';
     document.getElementById('footer-links').innerHTML = '<a href="#">GitHub (coming soon)</a><a href="#">Releases</a><a href="https://cesltd.com">CES Limited</a>';
   } else {
     document.getElementById('footer-powered').innerHTML = 'Powered by <a href="https://github.com/paperclipai/paperclip" target="_blank">Paperclip</a> open-source platform';
-    document.getElementById('footer-links').innerHTML = '<a href="https://github.com/ankurCES/TitanClip">GitHub</a><a href="https://github.com/ankurCES/TitanClip/releases">Releases</a><a href="https://cesltd.com">CES Limited</a>';
+    document.getElementById('footer-links').innerHTML = '<a href="https://github.com/CES-Ltd/TitanClip">GitHub</a><a href="https://github.com/CES-Ltd/TitanClip/releases">Releases</a><a href="https://cesltd.com">CES Limited</a>';
   }
 
   // Cross-fade content sections
